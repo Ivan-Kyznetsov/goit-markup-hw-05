@@ -34,6 +34,10 @@
   margin-top: 16px;
 }
 
+.footer-social {
+  margin-right: auto;
+}
+
 .footer-social-descr {
   font-weight: 500;
   font-size: 16px;
@@ -49,5 +53,68 @@
 
 .footer-social-link.social-link:hover,
 .footer-social-link.social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-form {
+}
+.form-fieldset {
+  font-family: inherit;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  border: none;
+}
+.form-legend {
+  margin-bottom: 16px;
+}
+
+.form-input {
+  width: 264px;
+  background-color: transparent;
+  padding: 13px 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:hover,
+.form-input:focus {
+  border-color: #31d0aa;
+}
+
+.form-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form-btn {
+  max-width: 165px;
+  padding: 8px 24px;
+  border-radius: 4px;
+  border: none;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-btn:hover,
+.form-btn:focus {
   background-color: #31d0aa;
 }
