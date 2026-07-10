@@ -461,27 +461,29 @@
             </li>
           </ul>
         </div>
-        <form action="" class="footer-form">
-          <fieldset class="form-fieldset">
-            <legend class="form-legend">Subscribe</legend>
-            <label class="form-label">
-              <input
-                type="email"
-                name="email"
-                class="form-input"
-                placeholder="E-mail"
-            /></label>
-            <button class="form-btn" type="submit">
-              Subscribe
-              <svg class="footer-svg-btn" width="24" height="24">
-                <use href="./images/icons.svg#send"></use>
-              </svg>
-            </button>
-          </fieldset>
-        </form>
+        <div class="wrapper-form">
+          <p class="form-descr">Subscribe</p>
+          <form class="footer-form">
+            <fieldset class="form-fieldset">
+              <label class="form-label">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="E-mail"
+              /></label>
+              <button class="form-btn" type="submit">
+                Subscribe
+                <svg class="footer-svg-btn" width="24" height="24">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+              </button>
+            </fieldset>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay" id="modal">
       <div class="modal">
         <button class="modal-btn-close" type="button">
           <svg class="svg-close" width="8" height="8">
