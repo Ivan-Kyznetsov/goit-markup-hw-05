@@ -56,22 +56,20 @@
   background-color: #31d0aa;
 }
 
-.footer-form {
-}
 .form-fieldset {
-  font-family: inherit;
   display: flex;
   gap: 24px;
   margin: 0;
   padding: 0;
+  border: none;
+}
+
+.form-descr {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  border: none;
-}
-.form-legend {
   margin-bottom: 16px;
 }
 
@@ -83,6 +81,11 @@
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
   transition: border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
