@@ -47,6 +47,7 @@
   width: 24px;
   height: 24px;
   cursor: pointer;
+  background-color: #e7e9fc;
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -91,7 +92,7 @@
   display: inline-block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -144,6 +145,9 @@
   display: block;
   width: 100%;
   height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 8px 16px;
@@ -201,9 +205,6 @@
 
 .modal-form-check:checked + .label-checkbox .checkbox-icon {
   opacity: 1;
-}
-
-.wrapper-policy {
 }
 
 .form-link-policy {
